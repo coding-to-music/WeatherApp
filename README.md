@@ -1,10 +1,30 @@
 ## Weather-app 
+
+Excellent Original version by: https://github.com/besartm7/WeatherApp
+
+Their version viewable at: [weatherapp-besartm.vercel.app](https://weatherapp-besartm.vercel.app/) 
+
 This project bootstrapped with Next.js Framework.
 There is public Rest API https://www.metaweather.com/api/ which I'm using to query and get data.
 
-Demo deployed on Vercel:
+## Refresh node packages
 
-[weatherapp-besartm.vercel.app](https://weatherapp-besartm.vercel.app/) 
+- Delete package-lock.json file.
+- Delete node_modules.
+- Run npm update
+- Run npm install
+
+```java
+npx browserslist@latest --update-db
+rm package-lock.json 
+rm -rf node_modules/
+npm update
+npm audit fix --force
+npm install
+npm outdated | awk 'NR>1 {print $1"@"$4}' | xargs npm install
+npm run dev
+```
+
 
 ## Getting Started
 
@@ -16,7 +36,7 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3800](http://localhost:3800) with your browser to see the result.
 
 Build project:
 
