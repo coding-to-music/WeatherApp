@@ -2,6 +2,8 @@
 
 https://weather-app-meta-weather.vercel.app/
 
+https://weather-app-meta-weather.herokuapp.com/
+
 https://github.com/coding-to-music/WeatherApp
 
 Excellent Original version by: https://github.com/besartm7/WeatherApp
