@@ -1,8 +1,12 @@
-## Weather-app 
+## Weather-app
+
+https://weather-app-meta-weather.vercel.app/
+
+https://github.com/coding-to-music/WeatherApp
 
 Excellent Original version by: https://github.com/besartm7/WeatherApp
 
-Their version viewable at: [weatherapp-besartm.vercel.app](https://weatherapp-besartm.vercel.app/) 
+Their version viewable at: [weatherapp-besartm.vercel.app](https://weatherapp-besartm.vercel.app/)
 
 This project bootstrapped with Next.js Framework.
 There is public Rest API https://www.metaweather.com/api/ which I'm using to query and get data.
@@ -16,7 +20,7 @@ There is public Rest API https://www.metaweather.com/api/ which I'm using to que
 
 ```java
 npx browserslist@latest --update-db
-rm package-lock.json 
+rm package-lock.json
 rm -rf node_modules/
 npm update
 npm audit fix --force
@@ -24,7 +28,6 @@ npm install
 npm outdated | awk 'NR>1 {print $1"@"$4}' | xargs npm install
 npm run dev
 ```
-
 
 ## Getting Started
 
@@ -43,9 +46,40 @@ Build project:
 ```bash
 npm run build
 ```
+
 Run build project:
-```bash
+
+```java
 npm run start
 ```
+
 View:
 ![WeatherApp](https://i.pinimg.com/originals/7c/8f/8d/7c8f8d6c1d31299983169c717250ee9c.png "WeatherApp")
+
+## Installation on Vercel
+
+```java
+npm i -g vercel
+```
+
+# to create a new project
+
+```java
+vercel init svelte film-api-svelte-mongodb
+```
+
+# now that this project is created, you can deploy it to Vercel
+
+```java
+vercel
+```
+
+Environment variables:
+
+```java
+vercel env add
+```
+
+Then the variable
+Then the value
+Then the environment(s)
